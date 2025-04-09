@@ -27,7 +27,7 @@ To use the Gemini API, you'll need to obtain an API key. Here's how:
 ├── Setup/descriptions.yaml       # Maps class names to human-readable descriptions
 ├── Setup/strings_to_check.yaml   # List of strings that should invalidate a classification
 ├── Setup/wrong_classes.yaml      # Maps incorrect/hallucinated class names to correct ones
-├── Files/                        # Folder, which contains subfolders to place the publication pdf's in
+├── Files/                        # TODO: For classification, please create a folder 'Files', with respective subfolders (e.g. Project 1, Project 2), where you store the PDF's that you want to classify
 ├── requirements.txt              # Python dependencies
 ```
 
@@ -64,6 +64,9 @@ api_key: "your-google-gemini-api-key"
 ```
 
 > ⚠️ Never share/publish your key.
+
+
+### 5. Add the folder 'Files', that contains subfolders (e.g. 'Project 1') with relevant PDF's.
 
 ---
 
